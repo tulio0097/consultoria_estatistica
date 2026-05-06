@@ -1,0 +1,41 @@
+## COMANDOS BASH 
+ls -> lista os arquivos da pasta 
+ls -a -> lista todos os arquivos da pasta, incluindo os ocultos 
+pwd -> mostra o local (diretório) que está
+cd -> move entre os diretórios
+cat -> exibe o contudo do arquivo 
+rm -rf -> apaga todo o diretório 
+mkdir -> cria uma nova pasta 
+
+
+## COMANDOS GIT 
+git init -> torna o local (pasta) atual em "versionavel". possibilitando a conexão com o GitHub.
+git status -> mostra de forma detalhada o status da pasta e destaca os arquivos que podem ser "commitados"
+git add . -> adiciona tudo 
+git add nome arquivo -> adiciona arquivo para ser commitado
+git commit -m "msg" -> faz commit do que estava para ser commitado 
+git log -> mostra todo o hitórico de commit 
+git remote add origin https://github.com/usuario/repo-github.git
+git branch -M main 
+git push -u origin main 
+
+## FLUXO DE TRABALHO 	
+1. criar diretório (pasta) do projeto
+2. iniciar o git dentro do diretório criado (git init .)
+3. edita ou cria arquivos 
+4. git status
+5. git add <nome arquivo>
+6. git status 
+7. git commit -m "mensagem"
+8. git status 
+9. volta para o passo 3
+
+## FLUXO DE ATUALIZAÇÃO DE REPOSITORIO LOCAL 
+git pull -> puxa tudo o que há no repositório 
+git add. -> adiciona tudo ao repositorio
+git commit -m "mensagem" -> salva de maneira parcial e pontual o progresso 
+git push -> sobe (conecta) para o GitHub
+
+
+## CLONANDO REPOSITÓRIO
+git clone URL -> é importante para manter as boas praticas e organização, evitando quaisquer eventualidades com os arquivos originais 
